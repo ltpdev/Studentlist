@@ -1,7 +1,5 @@
 package com.example.asus_.studentlist;
 
-import java.sql.Blob;
-
 import cn.bmob.v3.BmobObject;
 import cn.bmob.v3.datatype.BmobFile;
 
@@ -9,7 +7,7 @@ import cn.bmob.v3.datatype.BmobFile;
  * Created by asus- on 2017/3/4.
  */
 
-public class Student extends BmobObject{
+public class Student2 extends BmobObject{
 private String name;
     private BmobFile headImg;
 
@@ -22,11 +20,10 @@ private String name;
     }
     /* private String imgPath;*/
 
-   /*public Student(String name,BmobFile headImg) {
-       super();
+    public Student2(String name, BmobFile headImg) {
         this.name = name;
-      this.headImg = headImg;
-   }*/
+        this.headImg = headImg;
+    }
 
     public String getName() {
         return name;

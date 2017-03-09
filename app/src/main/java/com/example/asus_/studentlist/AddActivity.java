@@ -201,7 +201,7 @@ public class AddActivity extends AppCompatActivity {
         }
         imgpath = imagePath;
         displayImage(imagePath);
-    //已修改过
+   
 
     }
 
